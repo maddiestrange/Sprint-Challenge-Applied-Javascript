@@ -33,7 +33,7 @@ class TabLink {
     
     // Iterate through the NodeList removing the .active-tab class from each element
     tabs.forEach(function(item){
-      return item.classList.remove('.active-tab');
+      return item.classList.remove('active-tab');
     });
 
     // Select all of the elements with the .card class on them
